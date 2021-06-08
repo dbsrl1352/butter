@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'baan';
+    src: url('/fonts/Bebas_Neue/BebasNeue-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url('/fonts/Bebas_Neue/BebasNeue-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'hyeon';
+    src: url('/fonts/Do_Hyeon/DoHyeon-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'SLEIGothicTTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SLEIGothicTTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Recipekorea';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/Recipekorea.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.a-title, .m-title {
+    font-family: 'hyeon';
+}
+
+.logo p {
+    font-family: 'baan';
+}
+
+.left p{
+    font-family: 'hyeon';
+}
+
+.right {
+    font-family: 'hyeon';
+}
+
+.i-right {
+    font-family: 'SLEIGothicTTF';
+}

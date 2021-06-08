@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/font.css">
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/app.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <p onclick="javascript:closeAll()" id="closeBtn">X</p>
+            <div class="menu-bar">
+                <img src="/icons/menu.png" alt="" onclick="javascript:openMenu()">
+            </div>
+            <div class="logo">
+                <p><a href="/index.html">BTS</a></p>
+            </div>
+        </header>
+        <div class="menu">
+            <div class="left" onclick="javascript:openSideMenu()">
+                <p>BTS</p>
+            </div>
+            <div class="right">
+                <p><a href="/index.html">HOME</a></p>
+                <p><a href="/about/about.html">ABOUT</a></p>
+                <p><a href="">PROFILE</a></p>
+                <p><a href="">ALBUM</a></p>
+            </div>
+        </div>
+
+        <footer>
+            <div class="sns">
+                <img src="/icons/facebook.png" alt="" onclick="location.href= 'https://www.facebook.com/bangtan.official'">
+                <img src="/icons/instagram.png" alt="" onclick="location.href= 'https://www.instagram.com/bts.bighitofficial/'">
+                <img src="/icons/twitter.png" alt="" onclick="location.href= 'https://twitter.com/BTS_twt'">
+                <img src="/icons/music-cloud.png" alt="" onclick="location.href= 'https://soundcloud.com/bangtan'">
+                <img src="/icons/v-live.png" alt="" onclick="location.href= 'https://www.vlive.tv/channel/FE619'">
+                <img src="/icons/youtube.png" alt="" onclick="location.href= 'https://www.youtube.com/BANGTANTV'">
+
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

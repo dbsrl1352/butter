@@ -1,0 +1,41 @@
+.wrapper {
+    background-color: rgba(0, 0, 0, 0.9);
+
+    color: #fff;
+}
+
+.cool {
+    width: 100%;
+    background-attachment: scroll;
+    overflow-y: scroll;
+}
+
+.cool::-webkit-scrollbar{
+    display: none;
+}
+
+.c-info {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.i-left img {
+    width: 550px;
+    margin-top: 10%;
+}
+
+.i-right {
+    margin-top: 4%;
+    margin-left: 15%;
+}
+
+.a-name {
+    color: #fff;
+    font-size: 4em;
+}
+
+.contents > p {
+    padding: 5px;
+    font-size: 1.1em;
+}

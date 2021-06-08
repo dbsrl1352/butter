@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/app.css">
+    <link rel="stylesheet" href="/css/font.css">
+    <link rel="stylesheet" href="profile.css">
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/app.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <p onclick="javascript:closeAll()" id="closeBtn">X</p>
+            <div class="menu-bar">
+                <img src="/icons/menu.png" alt="" onclick="javascript:openMenu()">
+            </div>
+            <div class="logo">
+                <p><a href="/index.html">BTS</a></p>
+            </div>
+        </header>
+        <div class="menu">
+            <div class="left" onclick="javascript:openSideMenu()">
+                <p>BTS</p>
+            </div>
+            <div class="right">
+                <p><a href="/index.html">HOME</a></p>
+                <p><a href="/about/about.html">ABOUT</a></p>
+                <p><a href="#">PROFILE</a></p>
+                <p><a href="/album/album.html">ALBUM</a></p>
+            </div>
+        </div>
+
+        <div class="members">
+            <div>
+                <p class="m-title">
+                    MEMBER
+                </p>
+            </div>
+            <div>
+                <a href="javascript:openInfo(0)"><img src="/images/0.jpg" alt="rm"></a>
+            </div>
+            <div>
+                <a href="javascript:openInfo(1)"><img src="/images/1.jpg" alt="jin"></a>
+            </div>
+            <div>
+                <a href="javascript:openInfo(2)"><img src="/images/2.jpg" alt="suga"></a>
+            </div>
+            <div>
+                <a href="javascript:openInfo(3)"><img src="/images/3.jpg" alt="jhope"></a>
+            </div>
+            <div>
+                <a href="javascript:openInfo(4)"><img src="/images/4.jpg" alt="jm"></a>
+            </div>
+            <div>
+                <a href="javascript:openInfo(5)"> <img src="/images/5.jpg" alt="v"></a>
+            </div>
+            <div>
+                <a href="javascript:openInfo(6)"><img src="/images/6.jpg" alt="jk"></a>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="closeBtn" onclick="javascript:closeInfo()">X</div>
+            <div class="mation">
+                <div class="i-left">
+                    <img src="/images/0.jpg" alt="">
+                </div>
+                <div class="i-right">
+                    <div class="mem">
+                        <div class="name">RM</div>
+                        <div class="birth">생일 : 1994년 09월 12일</div>
+                        <div class="cam">
+                            <p class="c-title">솔로곡</p>
+                            <div>
+                                <p> <a href="https://youtu.be/wzxjM-82RW8" target="_blank">WINGS Reflection</a></p>
+                                <p><a href="https://youtu.be/M9Uy0opVF3s" target="_blank">MAP OF THE SOUL:PERSONA &nbsp;&nbsp;
+                                        Intro:Persona</a></p>
+                                        <p><a href="https://youtu.be/GiKZ_4EkYsA" target="_blank">LOVE YOURSELF 結 'Answer' &nbsp; Trivia 承:Love </a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mem">
+                        <div class="name">JIN</div>
+                        <div class="birth">생일 : 1992년 12월 04일</div>
+                        <div class="cam">
+                            <p class="c-title">솔로곡</p>
+                            <div>
+                                <p> <a href="https://youtu.be/WYbrLlVelYk" target="_blank">WINGS Awake</a></p>
+                                <p><a href="https://youtu.be/fIkZOLsnoqY" target="_blank">LOVE YOURSELF 結 'Answer' &nbsp; Epiphany</a></p>
+                                <p><a href="https://youtu.be/F5H3g0UR7CI" target="_blank">MAP OF THE SOUL:7&nbsp; Moon </a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mem">
+                        <div class="name">SUGA</div>
+                        <div class="birth">생일 : 1993년 03월 09일</div>
+                        <div class="cam">
+                            <p class="c-title">솔로곡</p>
+                            <div>
+                                <p> <a href="https://youtu.be/IW-ZUAUWgwo" target="_blank">화양연화 pt.1 Intro:화양연화</a></p>
+                                <p><a href="https://youtu.be/LOadwTF77tw" target="_blank">화양연화 pt.2 INTRO:Never Mind</a></p>
+                                <p> <a href="https://youtu.be/7VPcnJ9oJ-k" target="_blank">WINGS First Love</a></p>
+                                <p><a href="https://youtu.be/NC_Lo8nRqfA" target="_blank">LOVE YOURSELF 結 'Answer' &nbsp; Trivia 轉 Seesaw </a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mem">
+                        <div class="name">JHOPE</div>
+                        <div class="birth">생일 : 1994년 02월 18일</div>
+                        <div class="cam">
+                            <p class="c-title">솔로곡</p>
+                            <div>
+                                <p> <a href="https://youtu.be/iJJSh-eEdRk" target="_blank">WINGS Intro:Boy Meets Evil</a></p>
+                                <p><a href="https://youtu.be/wu82g0vyyTY" target="_blank">WINGS MAMA</a></p>
+                                <p><a href="https://youtu.be/_xjZtbeKd4E" target="_blank">LOVE YOURSELF 結 'Answer' &nbsp; Trivia 起 _ Just Dance </a></p>
+                                <p><a href="https://youtu.be/LmApDbvNCXg" target="_blank">MAP OF THE SOUL:7&nbsp; Outro:Ego </a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mem">
+                        <div class="name">JIMIN</div>
+                        <div class="birth">생일 : 1995년 10월 13일</div>
+                        <div class="cam">
+                            <p class="c-title">솔로곡</p>
+                            <div>
+                                <p> <a href="https://youtu.be/_y8-HD5O69g" target="_blank">WINGS Lie</a></p>
+                                <p><a href="https://youtu.be/BEMaH9Sm3lQ" target="_blank">LOVE YOURSELF 承 'Her' &nbsp; Intro:Serendipity</a></p>
+                                <p><a href="https://youtu.be/gSsCZJM6OG0" target="_blank">LOVE YOURSELF 結 'Answer' &nbsp; Serendipity </a></p>
+                                <p><a href="https://youtu.be/dNUnnb8F-Cw" target="_blank">MAP OF THE SOUL:7&nbsp; filter </a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mem">
+                        <div class="name">V</div>
+                        <div class="birth">생일 : 1995년 12월 30일</div>
+                        <div class="cam">
+                            <p class="c-title">솔로곡</p>
+                            <div>
+                                <p> <a href="https://youtu.be/3i34dFsjRY4" target="_blank">WINGS Stigma</a></p>
+                                <p><a href="https://youtu.be/p8npDG2ulKQ" target="_blank">LOVE YOURSELF 轉 'Tear' &nbsp; Intro:Sigularity</a></p>
+                                <p><a href="https://youtu.be/uyWm8DUK06M" target="_blank">LOVE YOURSELF 結 'Answer' &nbsp; Sigularity </a></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mem">
+                        <div class="name">JUNG KOOK</div>
+                        <div class="birth">생일 : 1997년 09월 01일</div>
+                        <div class="cam">
+                            <p class="c-title">솔로곡</p>
+                            <div>
+                                <p> <a href="https://youtu.be/yR73I0z5ms0" target="_blank">WINGS Begin</a></p>
+                                <p><a href="https://youtu.be/kX0vO4vlJuU" target="_blank">LOVE YOURSELF 結 'Answer' &nbsp; Euphoria</a></p>
+                                <p><a href="https://youtu.be/a_zk4JFK43g" target="_blank">MAP OF THE SOUL:7&nbsp; 시차 </a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="sns">
+                <img src="/icons/facebook.png" alt=""
+                    onclick="location.href= 'https://www.facebook.com/bangtan.official'">
+                <img src="/icons/instagram.png" alt=""
+                    onclick="location.href= 'https://www.instagram.com/bts.bighitofficial/'">
+                <img src="/icons/twitter.png" alt="" onclick="location.href= 'https://twitter.com/BTS_twt'">
+                <img src="/icons/music-cloud.png" alt="" onclick="location.href= 'https://soundcloud.com/bangtan'">
+                <img src="/icons/v-live.png" alt="" onclick="location.href= 'https://www.vlive.tv/channel/FE619'">
+                <img src="/icons/youtube.png" alt="" onclick="location.href= 'https://www.youtube.com/BANGTANTV'">
+
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
